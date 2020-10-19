@@ -19,5 +19,5 @@ export const Button: React.FC<Props> = ({
 
 Button.propTypes = {
   variant: PropTypes.oneOf(['primary', 'secondary']),
-  children: PropTypes.any
+  children: PropTypes.any.isRequired
 };
