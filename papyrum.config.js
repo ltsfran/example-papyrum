@@ -7,5 +7,8 @@ export default {
   menu: [
     'Introduction',
     'Components'
+  ],
+  ignore: [
+    'README.md'
   ]
 };
